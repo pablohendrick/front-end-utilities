@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact - Your Business</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <main>
+          <form>
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname">
+
+              <label for="email">Email</label>
+              <input type="text" id="email">
+
+              <label for="telephone">Telephone</label>
+              <input type="text" id="telephone">
+              
+              <label for="message">Message</label>
+              <textarea cols="70" rows="10" id="message" class="input-message"></textarea>
+                <div>
+                  <p>How do you prefer our contact?</p>
+                  <label for="radio-email">
+                      <input type="radio" name="contact" value="email" id="radio-email">
+                      Email
+                  </label>
+
+                  <label for="radio-phonecall">
+                      <input type="radio" name="contact" value="phonecall" id="radio-phonecall"> 
+                      Phone Call
+                  </label>
+
+                  <label for="radio-sms">
+                      <input type="radio" name="contact" value="sms" id="radio-sms">
+                      SMS
+                  </label>
+                </div>
+
+              <input type="submit" value="Submit Form">
+         </form>
+       </main>
+
+        <footer>
+            <img src="your-logo.svg">
+            <p class="copyright">&copy; Copyright Your Business - 2023</p>
+        </footer>
+    </body>
+</html>
